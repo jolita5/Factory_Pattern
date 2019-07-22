@@ -43,8 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConcreteBusinessObject.cs" />
+    <Compile Include="IBusinessThingy.cs" />
+    <Compile Include="ObjectFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SecondContreteBusinessObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
